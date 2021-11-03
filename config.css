@@ -1,6 +1,6 @@
 #contenitore{
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .line{
@@ -13,21 +13,32 @@
     margin-inline: 15px;
     position: relative;
 }
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+} 
 
 .line>div>span.sale{
+    display: block;
     position: absolute;
     top: 0px;   
     right: 0px; 
-    background-color: red;
     color: black;  
     font-style: italic;
 }
 
-.line>div>span{
-
+span.heart{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    display: block;
+    color: red;
+    color: transparent;
 }
 
-img:hover{
-
+div.image:hover span.heart{
+   color: red;
 }
 
